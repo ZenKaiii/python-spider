@@ -11,4 +11,3 @@ while True:
     client.send(input_data.encode("utf-8"))
     server_data = client.recv(1024)
     print("server response: {}".format(server_data.decode('utf-8')))
-
