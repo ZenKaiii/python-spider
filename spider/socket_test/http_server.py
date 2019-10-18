@@ -13,14 +13,14 @@ def handle_sock(sock,addr):
         print(tmp_data.decode('utf-8'))
         response_template = '''HTTP/1.1 200 OK
      
-<html>
+<html_test>
     <head>
         <title>Web Server</title>
     </head>
     <body>
         Hello world!
     </body>
-</html>
+</html_test>
 
 '''
 
